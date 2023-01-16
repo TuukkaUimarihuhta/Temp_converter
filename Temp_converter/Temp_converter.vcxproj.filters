@@ -21,9 +21,15 @@
     <ClCompile Include="Celsius.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Fahrenheit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="celsius.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fahrenheit.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
