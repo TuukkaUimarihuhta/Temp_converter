@@ -39,7 +39,7 @@ int main()
                 exit('y' || 'Y');
             else
                 main();
-            //break;
+            break;
         case 3:
             loop = false;
             std::cout << "Are you sure you want to exit the program? [y/n]:\n";
@@ -48,7 +48,7 @@ int main()
                 exit('y' || 'Y');
             else
                 main();
-            //break;
+            break;
         default:
             // Makes the user pick another number until a valid case number is given
             std::cout << "This is not a valid number, please pick another number: \n";
