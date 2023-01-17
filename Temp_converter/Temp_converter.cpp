@@ -4,6 +4,7 @@
 
 int main()
 {
+    // boolean variable for the while loop
     bool loop{ true };
     std::cout << "Enter 1 to convert celsius to fahrenheit and 2 to convert fahrenheit to celsius. Entering 3 closes the program.\n\n";
 
@@ -13,6 +14,7 @@ int main()
 
     int convert{0};
     std::cin >> convert;
+    // while loop to go through the cases again incase user enters a number that isn't 1, 2 or 3
     while (loop == true)
     {
         switch (convert)
@@ -31,7 +33,7 @@ int main()
             break;
         case 2:
             loop = false;
-            //Conversion from fahrenheit to celsius is done in Fahrenheit.cpp and the value is returned here
+            // Conversion from fahrenheit to celsius is done in Fahrenheit.cpp and the value is returned here
             std::cout << "The fahrenheit degree you gave is " << fahrenheit() << "\370C" << " in celsius.\n\n";
             std::cout << "Do you want to exit the program? [y/n]:\n";
             std::cin >> stop;
@@ -42,6 +44,7 @@ int main()
             break;
         case 3:
             loop = false;
+            // Asks you if you want to quit, letters 'y' and 'Y' will stop the program, everything else is treated as no
             std::cout << "Are you sure you want to exit the program? [y/n]:\n";
             std::cin >> stop;
             if (stop == 'y' || stop == 'Y')
