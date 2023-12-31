@@ -3,7 +3,7 @@
 
 double fahrenheit()
 {
-	std::cout << "Give fahrenheit degree that you want to convert: ";
+	std::cout << "Give Fahrenheit degree that you want to convert: ";
 	double fahrenheit{ 0 };
 	std::cin >> fahrenheit;
 	// Formula that is used to convert fahrenheit to celsius

@@ -6,10 +6,10 @@ int main()
 {
     // boolean variable for the while loop
     bool loop{ true };
-    std::cout << "Enter 1 to convert celsius to fahrenheit and 2 to convert fahrenheit to celsius. Entering 3 closes the program.\n\n";
+    std::cout << "Enter 1 to convert Celsius to Fahrenheit and 2 to convert Fahrenheit to Celsius. Entering 3 closes the program.\n\n";
 
-    std::cout << "1. Celsius to fahrenheit\n";
-    std::cout << "2. Fahrenheit to celsius\n";
+    std::cout << "1. Celsius to Fahrenheit\n";
+    std::cout << "2. Fahrenheit to Celsius\n";
     std::cout << "3. Exit the program\n\n";
 
     int convert{0};
@@ -23,7 +23,7 @@ int main()
         case 1:
             loop = false;
             // Conversion from celsius to fahrenheit is done in Celsius.cpp and the value is returned here
-            std::cout << "The degree celsius you gave is " << celsius() << "\370F" << " in fahrenheit.\n\n";
+            std::cout << "The Celsius degree you gave is " << celsius() << "\370F" << " in Fahrenheit.\n\n";
             std::cout << "Do you want to exit the program? [y/n]:\n";
             std::cin >> stop;
             if (stop == 'y' || stop == 'Y')
@@ -34,7 +34,7 @@ int main()
         case 2:
             loop = false;
             // Conversion from fahrenheit to celsius is done in Fahrenheit.cpp and the value is returned here
-            std::cout << "The fahrenheit degree you gave is " << fahrenheit() << "\370C" << " in celsius.\n\n";
+            std::cout << "The Fahrenheit degree you gave is " << fahrenheit() << "\370C" << " in Celsius.\n\n";
             std::cout << "Do you want to exit the program? [y/n]:\n";
             std::cin >> stop;
             if (stop == 'y' || stop == 'Y')
